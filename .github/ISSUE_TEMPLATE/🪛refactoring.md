@@ -1,5 +1,5 @@
 ---
-name: "\U0001F5BCFeature"
+name: "\U0001F5BCRefactoring"
 about: 리펙토링을 위한 Issue
 title: ''
 labels: ''
