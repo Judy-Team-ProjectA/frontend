@@ -1,5 +1,5 @@
 ---
-name: "\U0001F5BCFeature"
+name: "\U0001F5BCSetting"
 about: 프로젝트 세팅을 위한 Issue
 title: ''
 labels: ''
