@@ -1,11 +1,9 @@
 import { Suspense, lazy } from "react";
 import { Route, Routes } from "react-router-dom";
+import react from "@/assets/react.svg";
 
+const Isetting = lazy(() => import("@/App"));
 const MainPage = lazy(() => import("@/pages/main"));
-const Campage = lazy(() => import("@/pages/cam"));
-const Calendar = lazy(() => import("@/pages/calendarpage"));
-const Isetting = lazy(() => import("@/pages/interviewSetting"));
-// export const routes = () => {
 //   return (
 //     <Suspense fallback={<div>....laoding</div>}>
 //       <Routes>
@@ -20,11 +18,6 @@ export const routes = [
   {
     path: "/",
     //elements:
-    children: [
-      { path: "/", element: <MainPage /> },
-      { path: "/cam", element: <Campage /> },
-      { path: "/calendar", element: <Calendar /> },
-      { path: "/InterviewSetting", element: <Isetting /> },
-    ],
+    children: [{ path: "/main", element: <MainPage /> }],
   },
 ];
