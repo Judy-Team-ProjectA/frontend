@@ -1,5 +1,5 @@
 import { rest } from "msw";
-import { Question } from "@/types/question";
+import { Question } from "@/types/questions";
 const questions: Question[] = [
   {
     id: 1,
@@ -38,11 +38,10 @@ const questions: Question[] = [
   },
 ];
 export const handlers = [
-  rest.get("/interview/questions", (req, res, ctx) => {
+  rest.get("/interview/questions", (_req, res, ctx) => {
     return res(ctx.status(200), ctx.json(questions));
   }),
-  rest.post("/interview/questions",(req, res, ctx) => {
-    
-    return res(ctx.status(201), ctx.json(questions))
-  })
+  rest.post("/interview/questions", (_req, res, ctx) => {
+    return res(ctx.status(201), ctx.json(questions));
+  }),
 ];
