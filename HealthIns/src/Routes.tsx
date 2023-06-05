@@ -13,7 +13,7 @@ const MainPage = lazy(() => import("@/pages/main"));
 //     </Suspense>
 //   );
 // };
-//ㅇㄴㅁㅇㅁㄴㅇㅁ
+//
 export const routes = [
   {
     path: "/",

@@ -1,32 +1,31 @@
 {
-  "name": "MyProgressiveWebApp",
-  "short_name": "MyPWA",
-  "start_url": "/",
+  "name": "HealthIns",
+  "short_name": "HealthIns",
+  "start_url": "/main",
   "display": "standalone",
-  "background_color": "#F8F7DA",
-  "theme_color": "#8C383A",
-  "description": "PWA with Vite.js, React.js and TypeScript",
+  "background_color": "#0A233F",
+  "theme_color": "#0A233F",
+  "description": "HealthIn project Apllication",
   "icons": [
     {
-      "src": "calendar-minus.png",
-      "sizes": "64x64 32x32 24x24 16x16",
+      "src": "assets/icon-192x192.png",
+      "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "calendar-minus.png",
-      "type": "image/png",
-      "sizes": "196x196"
+      "src": "assets/icon-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
     },
     {
-      "src": "calendar-minus.png",
-      "type": "image/png",
-      "sizes": "512x512"
+      "src": "assets/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png"
     },
     {
-      "src": "calendar-minus.png",
-      "type": "image/png",
+      "src": "assets/icon-512x512.png",
       "sizes": "512x512",
-      "purpose": "any maskable"
+      "type": "image/png"
     }
   ]
 }
