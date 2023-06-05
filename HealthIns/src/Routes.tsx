@@ -1,7 +1,8 @@
-import { Suspense, lazy } from "react";
-import { Route, Routes } from "react-router-dom";
-import react from "@/assets/react.svg";
+import { lazy } from "react";
+// import { Route, Routes } from "react-router-dom";
+// import react from "@/assets/react.svg";
 
+// eslint-disable-next-line react-refresh/only-export-components
 const MainPage = lazy(() => import("@/pages/main"));
 //   return (
 //     <Suspense fallback={<div>....laoding</div>}>
