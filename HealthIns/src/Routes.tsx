@@ -4,6 +4,7 @@ import { lazy } from "react";
 
 // eslint-disable-next-line react-refresh/only-export-components
 const MainPage = lazy(() => import("@/pages/main"));
+const Matching = lazy(() => import("@/pages/match"));
 //   return (
 //     <Suspense fallback={<div>....laoding</div>}>
 //       <Routes>
@@ -18,6 +19,9 @@ export const routes = [
   {
     path: "/",
     //elements:
-    children: [{ path: "/main", element: <MainPage /> }],
+    children: [
+      { path: "/main", element: <MainPage /> },
+      { path: "/match", element: <Matching /> },
+    ],
   },
 ];
