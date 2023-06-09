@@ -1,11 +1,10 @@
-import { Suspense, lazy } from "react";
-import { Route, Routes } from "react-router-dom";
+import { lazy } from "react";
+// import { Route, Routes } from "react-router-dom";
+// import react from "@/assets/react.svg";
 
+// eslint-disable-next-line react-refresh/only-export-components
 const MainPage = lazy(() => import("@/pages/main"));
-const Campage = lazy(() => import("@/pages/cam"));
-const Calendar = lazy(() => import("@/pages/calendarpage"));
-const Isetting = lazy(() => import("@/pages/interviewSetting"));
-// export const routes = () => {
+const Matching = lazy(() => import("@/pages/match"));
 //   return (
 //     <Suspense fallback={<div>....laoding</div>}>
 //       <Routes>
@@ -15,16 +14,14 @@ const Isetting = lazy(() => import("@/pages/interviewSetting"));
 //     </Suspense>
 //   );
 // };
-//ㅇㄴㅁㅇㅁㄴㅇㅁ
+//
 export const routes = [
   {
     path: "/",
     //elements:
     children: [
-      { path: "/", element: <MainPage /> },
-      { path: "/cam", element: <Campage /> },
-      { path: "/calendar", element: <Calendar /> },
-      { path: "/InterviewSetting", element: <Isetting /> },
+      { path: "/main", element: <MainPage /> },
+      { path: "/match", element: <Matching /> },
     ],
   },
 ];
