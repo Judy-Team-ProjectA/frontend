@@ -93,7 +93,7 @@ video {
   padding: 0;
   border: 0;
   font: inherit;
-  vertical-align: baseline;
+  //  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -111,7 +111,7 @@ section {
 }
 body {
   line-height: 1;
-
+  margin-top: 0;
   font-family: "Arial";
   background-color: var(--background-color);
 }
@@ -135,7 +135,7 @@ table {
   border-spacing: 0;
 }
 * {
-  box-sizing: border-box;
+  //  box-sizing: border-box;
 }
 html {
   font-size: 62.5%; // 1rem = 10px;

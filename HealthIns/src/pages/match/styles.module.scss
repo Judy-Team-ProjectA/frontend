@@ -6,11 +6,30 @@
   color: black;
   font-size: 5rem;
   width: 20rem;
-  height: 10rem;
+  height: 5rem;
+}
+.filterContainer {
+  display: flex;
+  flex-direction: row;
+  span {
+    text-align: center;
+  }
+}
+.locationIcon {
+  width: 30px;
+  height: 30px;
+  padding: 15px;
+}
+.filterIcon {
 }
 
 .matchCard {
-  widht: 90%;
-  height: 50rem;
+  width: 90%;
+  height: 45rem;
   background-color: white;
+}
+.filter {
+  width: 60px;
+  height: 60px;
+  background-color: black;
 }

@@ -1,0 +1,16 @@
+@import "@/media.scss";
+
+.container {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  gap: 20px;
+  top: 5em;
+  justify-items: center;
+}
+
+.line {
+  width: 70%;
+  height: 1px;
+  background-color: white;
+}
